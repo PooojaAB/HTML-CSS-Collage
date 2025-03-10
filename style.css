@@ -4,7 +4,7 @@ main{
 }
 .sec-1-wrapper div {
     margin: 5px;
-    border-radius: 5px 5px 0px;
+    border-radius: 5px;
 }
 .sec-1-wrapper {
     display: flex;
@@ -54,6 +54,8 @@ main{
     width: 100%;
     height: 20%;
     background-color: #2AA650;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
 }
 
 .sec-2-wrapper{
@@ -105,6 +107,8 @@ main{
     height: 30%;
     width: 100%;
     background-color: #8D43B3;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
 
 }
 .sec-3-wrapper div{
@@ -137,7 +141,7 @@ main{
 .sec-3-2-1{
     height: 100%;
     width: 20%;
-    background-color: aqua;
+    background-color: #58AAE8;
     margin-right: 0px !important;
     margin-left: 0px !important;
 }
@@ -145,7 +149,7 @@ main{
 .sec-3-2-2{
     height: 100%;
     width: 80%;
-    background-color: rgb(255, 119, 0);
+    background-color: #E74E33;
     margin-right: 0px !important;
 }
 .sec-3-3{
@@ -158,5 +162,7 @@ main{
 .sec-3-4{
     height: 10%;
     width: 100%;
-    background-color: black;
+    background-color: #58AAE8;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
 }
